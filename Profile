@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Name - Personal Website</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            padding: 20px;
+        }
+        .profile {
+            display: flex;
+            align-items: center;
+        }
+        .profile img {
+            border-radius: 50%;
+            width: 150px;
+            margin-right: 20px;
+        }
+        .content {
+            max-width: 800px;
+        }
+        h1, h2 {
+            color: #333;
+        }
+        a {
+            color: #007acc;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="profile">
+        <img src="your-profile-picture.jpg" alt="Profile Picture">
+        <div>
+            <h1>Your Name</h1>
+            <p><strong>Your Title</strong><br>
+            Your Institution</p>
+            <p>Email: <a href="mailto:youremail@example.com">youremail@example.com</a> | <a href="your-cv-link">CV</a></p>
+        </div>
+    </div>
+
+    <div class="content">
+        <p>Brief introduction about yourself. Mention your research interests and any roles you play in academic or professional spaces.</p>
+
+        <h2>Current Research Areas</h2>
+        <ul>
+            <li>Research Area 1</li>
+            <li>Research Area 2</li>
+            <li>Research Area 3</li>
+            <li>Research Area 4</li>
+        </ul>
+    </div>
+</body>
+</html>
