@@ -3,11 +3,29 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Your Name - Personal Website</title>
+    <title>Your Name - NLP Researcher</title>
     <style>
         body {
             font-family: Arial, sans-serif;
-            margin: 20px;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #f8f8f8;
+            padding: 20px;
+            text-align: center;
+            border-bottom: 1px solid #ddd;
+        }
+        header nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: #333;
+            font-weight: bold;
+        }
+        main {
+            max-width: 800px;
+            margin: 40px auto;
             padding: 20px;
         }
         .profile {
@@ -19,42 +37,65 @@
             width: 150px;
             margin-right: 20px;
         }
-        .content {
-            max-width: 800px;
+        h1 {
+            font-size: 2rem;
+            margin-bottom: 10px;
         }
-        h1, h2 {
-            color: #333;
+        h2 {
+            font-size: 1.5rem;
+            margin-top: 30px;
         }
-        a {
-            color: #007acc;
-            text-decoration: none;
+        ul {
+            list-style-type: none;
+            padding: 0;
         }
-        a:hover {
-            text-decoration: underline;
+        ul li {
+            margin-bottom: 10px;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #f8f8f8;
+            border-top: 1px solid #ddd;
         }
     </style>
 </head>
 <body>
-    <div class="profile">
-        <img src="5cm_x_5cm.jpg" alt="Profile Picture">
-        <div>
-            <h1> Ansgarius Manek</h1>
-            <p><strong>Phd Student</strong><br>
-            Univeristy of Colorado Boulder</p>
-            <p>Email: <a href="mailto:ansgarius.manek@colorado.edu">youremail@example.com</a> | <a href="cv">CV</a></p>
-        </div>
-    </div>
 
-    <div class="content">
-        <p>Brief introduction about yourself. Mention your research interests and any roles you play in academic or professional spaces.</p>
+    <header>
+        <nav>
+            <a href="#">Main</a>
+            <a href="#">Group</a>
+            <a href="#">Projects</a>
+            <a href="#">Publications</a>
+        </nav>
+    </header>
+
+    <main>
+        <div class="profile">
+            <img src="your-profile.jpg" alt="Profile Picture">
+            <div>
+                <h1>Your Name</h1>
+                <p><strong>Associate Professor</strong><br>
+                Your University</p>
+                <p>Email: <a href="mailto:youremail@example.com">youremail@example.com</a> | <a href="#">CV</a></p>
+            </div>
+        </div>
+
+        <p>My research aims to build and improve generative AI. We are interested primarily in tasks that involve text generation, historically translation, summarization, and data-to-text generation.</p>
 
         <h2>Current Research Areas</h2>
         <ul>
-            <li>Research Area 1</li>
-            <li>Research Area 2</li>
-            <li>Research Area 3</li>
-            <li>Research Area 4</li>
+            <li>Alternative architectures for deep learning on language</li>
+            <li>Methods for scaling open language models</li>
+            <li>Efficient algorithms for language tasks</li>
+            <li>Security in AI systems</li>
         </ul>
-    </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Your Name - All rights reserved.</p>
+    </footer>
+
 </body>
 </html>
